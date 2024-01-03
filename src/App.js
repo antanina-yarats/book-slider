@@ -22,7 +22,7 @@ const previousBook = () => {
 const nextBook = () => {
   setBook((prevBook)=> {
     prevBook ++
-    if(prevBook === data.length-1){
+    if(prevBook > data.length-1){
       prevBook = 0
     }
     return prevBook
