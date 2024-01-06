@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { data } from './Data';
+import { data } from './data';
 import  Card  from './Card';
 import './App.css';
 
